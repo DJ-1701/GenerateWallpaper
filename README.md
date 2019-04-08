@@ -7,7 +7,7 @@ Examples of this style can be found below:
 
 **Logon**<br>![](Readme/LogonInfo.jpg)
 
-For this exercise we are going to use some Windows Spotlight wallpapers for Windows 10 in 19x6 (aka Widescreen) and 4x3 (aka Standard) resolutions, which can be downloaded from this repository.
+For this exercise we are going to use some Windows Spotlight wallpapers for Windows 10 in 19x6 (aka Widescreen) and 4x3 (aka Standard) resolutions, which can be [downloaded here](https://drive.google.com/open?id=1Sr4ZWIJtStYvWMOky2gFNi6r78Lp3wY4).
 
 Extract the zip file to a folder with the Establishment’s name. So, the folder path to both directories should be:<br>
 Establishment\Wallpaper\4x3<br>

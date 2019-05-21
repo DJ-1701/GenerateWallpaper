@@ -42,6 +42,10 @@ To ensure the script is run as admin on bootup we will need to create or amend a
 
 Go to Computer Configuration -> Policies -> Windows Settings -> Scripts (Logon/Logoff) -> Logon, and then click on the PowerShell Scripts tab, press Add, and for the script name type in the full path you stored the Update Wallpapers script (i.e. `\\FQDN\netlogon\Boot Info.ps1`).
 
+Go to Computer Configuration -> Policies -> Administrative Templates -> Control Panel -> Personalization -> Force a specific default lock screen and logon image, and enable the policy, specifying the location as:
+
+`C:\Windows\System32\oobe\info\backgrounds\backgroundDefault.jpg`
+
 ## Logon Info (Logon Info.ps1)
 
 Edit the section after '$TextLabel ="' to change the text which is saved on the wallpaper.
@@ -61,7 +65,3 @@ To ensure the script is run as admin on bootup we will need to create or amend a
 Go to User Configuration -> Policies -> Windows Settings -> Scripts (Logon/Logoff) -> Logon, and then click on the PowerShell Scripts tab, press Add, and for the script name type in the full path you stored the logon script (i.e. `\\FQDN\netlogon\Logon Info.ps1`).
 
 Go to User Configuration -> Policies -> Administrative Templates -> Desktop -> Desktop -> Desktop Wallpaper, and enable the policy, specifying the location as `%temp%\LogonInfo.jpg` and setting the wallpaper style to Stretch.
-
-Go to User Configuration -> Policies -> Administrative Templates -> Control Panel -> Personalization -> Force a specific default lock screen and logon image, and enable the policy, specifying the location as:
-
-`C:\Windows\System32\oobe\info\backgrounds\backgroundDefault.jpg`
